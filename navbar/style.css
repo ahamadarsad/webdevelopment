@@ -1,0 +1,23 @@
+*{
+ padding: 0%;
+ margin: 0%;
+}
+nav{
+    background-color: black;
+    padding: 1rem;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
