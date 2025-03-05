@@ -1,0 +1,24 @@
+.box{
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 40%;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 20px;
+}
+.title{
+    font-weight: bold;
+}
+input{
+    border-radius: 55px;
+    padding: 5px;
+    margin-top: 10px;
+}
+button{
+    border-radius: 55px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 60px;
+}
