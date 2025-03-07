@@ -1,0 +1,20 @@
+body{
+	margin-top:50px;
+}
+table,tr,td,th{
+
+	border-collapse:collapse;
+}
+table{
+	width:100%;
+	height:auto;
+}
+tr:nth-child(even)
+{
+	background-color:yellow;
+}
+tr:nth-child(odd)
+{
+	background-color:lightblue;
+	color:red;
+}

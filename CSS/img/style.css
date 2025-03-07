@@ -1,0 +1,16 @@
+body{
+	background-color:darkmagenta;
+}
+.title{
+	color:white;
+	text-align:center;
+	padding:5px;
+}
+.img{
+	height:150px;
+	width:150px;
+}
+.container{
+	display:flex;
+	justify-content:
+}

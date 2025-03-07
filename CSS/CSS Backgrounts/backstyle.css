@@ -1,0 +1,38 @@
+
+.top{
+	color:green;
+	background-color:gray;
+	text-align:center;
+}
+.heading{
+	color:red;
+	text-align:center;
+	text-decoration:underline;
+}
+.bgcolor{
+	background-color:blue;
+}
+#bg{
+	background-image:url("./img/flower.jpg");
+    height:500px;
+	width:300%;
+}
+#x{
+	background-image:url("./img/flower.jpg");
+    height:500px;
+	width:300%;
+	background-repeat:repeat-x;
+}
+#y{
+	background-image:url("./img/flower.jpg");
+    height:500px;
+	width:300%;
+	background-repeat:repeat-y;
+}
+#no{
+	background-image:url("./img/flower.jpg");
+    height:700px;
+	width:400%;
+	background-repeat:no-repeat;
+}
+

@@ -1,0 +1,77 @@
+.top{
+	color:green;
+	background-color:gray;
+	text-align:center;
+}
+.heading{
+	color:red;
+	text-align:center;
+	text-decoration:underline;
+}
+.bc{
+	color:red;
+	background-color:yellow;
+}
+
+#ta1{
+	color:white;
+    background-color:black;
+	text-align:center;
+}
+#ta2{
+	color:white;
+    background-color:blue;
+	text-align:right;
+}
+#ta3{
+	color:white;
+    background-color:gray;
+	text-align:left;
+}
+
+#td1{
+	text-decoration:overline;
+}
+#td2{
+	text-decoration:line-through;
+}
+#td3{
+	text-decoration:underline;
+}
+#td4{
+	text-decoration:none;
+}
+
+#tt1{
+	text-transform:uppercase;
+}
+#tt2{
+	text-transform:lowercase;
+}
+#tt3{
+	text-transform:capitalize;
+}
+
+#ts1{
+	text-indent:100px;
+	color:gray;
+}
+#ts2{
+	letter-spacing:5px;
+	color:green;
+}
+#ts3{
+	line-height:2.5;
+	color:red;
+	}
+#ts4{
+	word-spacing:20px;
+}
+.ts{
+	color:blue;
+	text-decoration:underline;
+}
+.shadow{
+	color:aqua;
+	text-shadow:2px 5px black;
+}
