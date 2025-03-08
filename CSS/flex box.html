@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Flex Box</title>
+<style>
+	.outerbox{
+		min-height:400px;
+		background-color:aquamarine;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-around;
+		align-items:center;
+	}
+	.box{
+		height:100px;
+		width:100px;
+		background-color:orange;
+		border:2px solid white;
+		border-radius:10px;
+		margin-right:5px;
+		display:Flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.outerbox>.box>h2{
+		color:red;
+		
+	}
+	p{
+		padding:10px;
+		margin:10px;
+	}
+	.para1{
+		background-color:aquamarine;
+		flex:1;
+	}
+	.para2{
+		background-color:darksalmon;
+		flex:1;
+		order:2;
+	}
+	.para3{
+		background-color:cornsilk;
+		flex:2;
+	}
+	.container{
+		display:Flex;
+	}
+	
+</style>
+</head>
+<body>
+
+<div class ="outerbox">
+<div class ="box"><h2>A</h2></div>
+<div class ="box"><h2>R</h2></div>
+<div class ="box"><h2>S</h2></div>
+<div class ="box"><h2>A</h2></div>
+<div class ="box"><h2>D</h2></div>
+</div>
+
+<div class="container">
+<p class="para1">Microwaves propagation is line-of-sight. Since the towers with the mounted antennas needs to be in direct sight of each other, s that are far apart need to be very tall, the curvature of the earth as well as other blocking obstacles do not allow two short towers to communicate using microwaves, Repeaters are often needed for long distance communication very high frequency microwaves cannot penetrate walls.   
+Microwaves propagation is line-of-sight. Since the towers with the mounted antennas needs to be in direct sight of each other, s that are far apart need to be very tall, the curvature of the earth as well as other blocking obstacles do not allow two short towers to communicate using microwaves, Repeaters are often needed for long distance communication very high frequency microwaves cannot penetrate walls.   
+</p>
+
+<p class="para2">Microwaves propagation is line-of-sight. Since the towers with the mounted antennas needs to be in direct sight of each other, s that are far apart need to be very tall, the curvature of the earth as well as other blocking obstacles do not allow two short towers to communicate using microwaves, Repeaters are often needed for long distance communication very high frequency microwaves cannot penetrate walls.   
+Microwaves are unidirectional; when an antenna transmits microwaves they can be narrowly focused. This means that the sending and receiving antennas need to be aligned. The unidirectional property has an obvious advantage. A pair of antennas can be aligned without interfering with another pair of aligned antenna
+</p>
+
+<p class="para3">Microwaves propagation is line-of-sight. Since the towers with the mounted antennas needs to be in direct sight of each other, s that are far apart need to be very tall, the curvature of the earth as well as other blocking obstacles do not allow two short towers to communicate using microwaves, Repeaters are often needed for long distance communication very high frequency microwaves cannot penetrate walls.   
+Radio waves particularly those of low and medium frequencies can penetrate walls. It is an advantage because; an AM radio can receive signals inside a building. It is the disadvantage because we cannot isolate a communication to first inside or outside a building. 
+</p>
+</div>
+</body>
+</html>
